@@ -1,4 +1,4 @@
-package com.example.orderservice.vo;
+package com.example.orderservice.presentation.controller.vo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
