@@ -1,4 +1,4 @@
-package com.example.orderservice.controller;
+package com.example.orderservice.infrastructure.controller;
 
 import com.example.orderservice.dto.OrderDto;
 import com.example.orderservice.infrastructure.kafka.producer.KafkaProducer;
