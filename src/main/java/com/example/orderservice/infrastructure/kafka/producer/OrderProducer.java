@@ -1,4 +1,4 @@
-package com.example.orderservice.messagequeue;
+package com.example.orderservice.infrastructure.kafka.producer;
 
 import com.example.orderservice.dto.*;
 import com.fasterxml.jackson.core.JsonProcessingException;
