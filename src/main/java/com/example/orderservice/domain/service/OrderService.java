@@ -1,6 +1,6 @@
 package com.example.orderservice.domain.service;
 
-import com.example.orderservice.dto.OrderDto;
+import com.example.orderservice.domain.service.dto.OrderDto;
 import com.example.orderservice.domain.entity.OrderEntity;
 
 public interface OrderService {

@@ -1,4 +1,4 @@
-package com.example.orderservice.dto;
+package com.example.orderservice.domain.service.dto;
 
 import lombok.Data;
 import org.apache.kafka.clients.producer.Callback;

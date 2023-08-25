@@ -1,6 +1,6 @@
 package com.example.orderservice.presentation.controller;
 
-import com.example.orderservice.dto.OrderDto;
+import com.example.orderservice.domain.service.dto.OrderDto;
 import com.example.orderservice.infrastructure.kafka.producer.KafkaProducer;
 import com.example.orderservice.infrastructure.kafka.producer.OrderProducer;
 import com.example.orderservice.domain.entity.OrderEntity;

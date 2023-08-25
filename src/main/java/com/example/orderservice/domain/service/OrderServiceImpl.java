@@ -1,7 +1,6 @@
 package com.example.orderservice.domain.service;
 
-import com.example.orderservice.domain.service.OrderService;
-import com.example.orderservice.dto.OrderDto;
+import com.example.orderservice.domain.service.dto.OrderDto;
 import com.example.orderservice.domain.entity.OrderEntity;
 import com.example.orderservice.infrastructure.db.jpa.OrderRepository;
 import org.modelmapper.ModelMapper;

@@ -1,6 +1,6 @@
 package com.example.orderservice.infrastructure.kafka.producer;
 
-import com.example.orderservice.dto.OrderDto;
+import com.example.orderservice.domain.service.dto.OrderDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

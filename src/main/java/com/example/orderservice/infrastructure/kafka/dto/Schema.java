@@ -1,5 +1,6 @@
-package com.example.orderservice.dto;
+package com.example.orderservice.infrastructure.kafka.dto;
 
+import com.example.orderservice.infrastructure.kafka.dto.Field;
 import lombok.Builder;
 import lombok.Data;
 
