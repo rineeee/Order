@@ -1,4 +1,4 @@
-package com.example.orderservice.repository;
+package com.example.orderservice.domain.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.ColumnDefault;

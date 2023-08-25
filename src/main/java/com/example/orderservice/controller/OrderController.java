@@ -3,7 +3,7 @@ package com.example.orderservice.controller;
 import com.example.orderservice.dto.OrderDto;
 import com.example.orderservice.messagequeue.KafkaProducer;
 import com.example.orderservice.messagequeue.OrderProducer;
-import com.example.orderservice.repository.OrderEntity;
+import com.example.orderservice.domain.entity.OrderEntity;
 import com.example.orderservice.service.OrderService;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
