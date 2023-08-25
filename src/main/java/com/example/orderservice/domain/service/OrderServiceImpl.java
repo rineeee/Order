@@ -1,5 +1,6 @@
-package com.example.orderservice.service;
+package com.example.orderservice.domain.service;
 
+import com.example.orderservice.domain.service.OrderService;
 import com.example.orderservice.dto.OrderDto;
 import com.example.orderservice.domain.entity.OrderEntity;
 import com.example.orderservice.infrastructure.db.jpa.OrderRepository;
@@ -10,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.UUID;
 
 @Service
-public class OrderServiceImpl implements OrderService{
+public class OrderServiceImpl implements OrderService {
     OrderRepository orderRepository;
 
     public OrderServiceImpl(OrderRepository orderRepository) {

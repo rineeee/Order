@@ -1,4 +1,4 @@
-package com.example.orderservice.service;
+package com.example.orderservice.domain.service;
 
 import com.example.orderservice.dto.OrderDto;
 import com.example.orderservice.domain.entity.OrderEntity;

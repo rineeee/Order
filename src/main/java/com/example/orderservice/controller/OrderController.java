@@ -4,7 +4,7 @@ import com.example.orderservice.dto.OrderDto;
 import com.example.orderservice.messagequeue.KafkaProducer;
 import com.example.orderservice.messagequeue.OrderProducer;
 import com.example.orderservice.domain.entity.OrderEntity;
-import com.example.orderservice.service.OrderService;
+import com.example.orderservice.domain.service.OrderService;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
 import lombok.extern.slf4j.Slf4j;
