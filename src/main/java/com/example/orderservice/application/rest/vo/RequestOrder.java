@@ -1,4 +1,4 @@
-package com.example.orderservice.presentation.controller.vo;
+package com.example.orderservice.application.rest.vo;
 
 import lombok.Data;
 

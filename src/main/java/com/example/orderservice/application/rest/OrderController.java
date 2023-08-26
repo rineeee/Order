@@ -1,12 +1,12 @@
-package com.example.orderservice.presentation.controller;
+package com.example.orderservice.application.rest;
 
 import com.example.orderservice.domain.service.dto.OrderDto;
 import com.example.orderservice.infrastructure.kafka.producer.KafkaProducer;
 import com.example.orderservice.infrastructure.kafka.producer.OrderProducer;
 import com.example.orderservice.domain.entity.OrderEntity;
 import com.example.orderservice.domain.service.OrderService;
-import com.example.orderservice.presentation.controller.vo.RequestOrder;
-import com.example.orderservice.presentation.controller.vo.ResponseOrder;
+import com.example.orderservice.application.rest.vo.RequestOrder;
+import com.example.orderservice.application.rest.vo.ResponseOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
